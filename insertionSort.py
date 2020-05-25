@@ -7,11 +7,11 @@
 
 def insertionSort(arr, low, high):
     for i in range(1, high + 1):
-        keyValue = arr[i]
+        store = arr[i]
         j = i - 1
-        while j >= 0 and keyValue <= arr[j]:
+        while j >= 0 and store <= arr[j]:
             arr[j + 1] = arr[j]
             j = j - 1
-        arr[j + 1] = keyValue
+        arr[j + 1] = store
     # print(arr)
     return arr
