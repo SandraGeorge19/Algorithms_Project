@@ -54,8 +54,7 @@ class Compare:
                 arr = list1
             sortingName(arr, 0, len(arr) - 1)
             timeElapsed = timeElapsed + time.time() - startTime
-        # if(any(arr[i] > arr[i+1] for i in range(len(arr)-1))):
-        # 	print("Test Case Failed ****")
+
         timeElapsed = (timeElapsed / self.Num_Of_Case) * 1000
         execTime.append(timeElapsed)
         print('Time elapsed in Execution of ' + func + ' : ' + str(timeElapsed) + ' milli seconds')
