@@ -89,7 +89,6 @@ class Compare:
 
         # Input Size
         size = [5000, 6000, 7000, 8000, 9000, 10000]
-        # size = [1,2,3,4,5,6,7,8,9,10]
 
         # List to store execution time of each sorting algorithm
         bubble = []
@@ -142,7 +141,6 @@ class Compare:
         plt.show()
 
 
-# resource.setrlimit(resource.RLIMIT_STACK, (2**29, -1))
 sys.setrecursionlimit(10 ** 6)
 compare = Compare()
 compare.main()

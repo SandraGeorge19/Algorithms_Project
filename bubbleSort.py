@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 
 def bubbleSort(arr, low, high):
     for i in range(len(arr) - 1):

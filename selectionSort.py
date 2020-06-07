@@ -1,7 +1,3 @@
-#!/usr/bin/python
-
-## Selection SORT
-
 
 def selectionSort(arr, low, high):
     for i in range(len(arr)):

@@ -1,12 +1,7 @@
 #!/usr/bin/python
 
 # from insertionSort import insertionSort
-## MODIFIED QUICK SORT
 
-# Input : Array of Integers - arr
-# Output : Returns sorted array
-
-# accually its a heap sort
 
 def heapSort(arr, low, high):
     heap = []

@@ -1,10 +1,4 @@
-#!/usr/bin/python
 
-
-## MERGE SORT
-
-# Input : Array of Integers - arr
-# Output : Returns sorted array
 
 
 def mergeSort(arr, low, high):

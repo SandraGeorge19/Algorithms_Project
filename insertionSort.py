@@ -1,9 +1,4 @@
-#!/usr/bin/python
 
-## INSERTION SORT
-
-# Input : Array of Integers - arr
-# Output : Returns sorted array
 
 def insertionSort(arr, low, high):
     for i in range(1, high + 1):
